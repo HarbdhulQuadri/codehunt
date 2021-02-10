@@ -1,0 +1,17 @@
+{
+  "name": "biz_website",
+  "version": "1.0.0",
+  "description": "a simple buisness site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdulquadri Adegbiji",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "jade": "*",
+    "nodemailer": "*"
+  }
+}
