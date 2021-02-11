@@ -2,14 +2,14 @@ extends layout
 block content 
  .container
   form(method="post",action="contact/send")
-  h1 Contact Us
-  .formgroup
+   h1 Contact Us
+   .formgroup
    label Name
    input.form-control(type='text',name='name',placeholder='Enter Your Name Please')
-  .formgroup
+   .formgroup
    label Email
    input.form-control(type='email',name='email',placeholder='Enter Your Email')
-  .formgroup
+   .formgroup
    label Message
    textarea.form-control(type='text',name='message',placeholder='Enter Your Message Please')
-  button.btn.btn-default(type=submit) Submit
+   button.btn.btn-default(type=submit) Submit
