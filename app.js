@@ -25,7 +25,7 @@ app.post('/contact/send' ,function(req,res){
         service : 'gmail',
         auth:{
             user :"adegbijilanre@gmail.com",
-
+ok
         }
     });
     const mailOption = {
